@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+  <meta name="viewport" charset="utf-8" content="width=device-width, intial-scale=1.0">
+  <title>ABOUT</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+
+<!---About page--->
+  <section class="header">
+    <nav>
+    <!---  <a href="index.html"><img src="images/katanalogo.png"></a> --->
+      <div class="nav-links" id="navLinks">
+        <i class="fa-regular fa-square-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">ABOUT</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <!---<li><a href="">ART PROJECTS</a></li>--->
+        </ul>
+      </div>
+       <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>Katana Rain Finlason</h1>
+      <p>Senior at Massachusetts Institute of Technology majoring in Mechanical Engineering and minoring in Energy Studies.<br>
+        I am interested in product design and developing technologies that can help mitigate the negative impacts on our natural environment!</p>
+      <img src="images/headshot.jpg"> <br><br>
+      <a href="files/Finlason_Katana_Resume2022.pdf" target="_blank" class="hero-btn" download="Finlason_Katana_Resume2022">Download Resume</a>
+      <p><br>Scroll down to see my most recent job experiences!</p>
+    </div>
+
+<!---Trying to make smooth transition but failed
+    <div class="splatter">
+    <img src="images/splat.png">
+    </div>
+--->
+
+  </section>
+
+<!---Skills section on About page--->
+<section class="skills">
+  <h1>My Experience</h1>
+  <p>Having worked at MIT in tandem with my studies, I have refined my skills in CAD/CAM, Product Design, Machining, and Teaching</p>
+
+  <div class="pic-rows">
+    <div class="pic-skills-col">
+      <img src="images/apprentice_adjusted.jpeg">
+      <div class="photographer-swipe">
+        <h2>&#128248;: Tony Pulsone</h2>
+      </div>
+    </div>
+    <div class="pic-skills-col">
+      <img src="images/dig3.jpg">
+      <div class="photographer-swipe">
+        <h2>&#128248;: Chuck || MIT Mechanical Engineering</h2>
+      </div>
+    </div>
+    <div class="pic-skills-col">
+      <img src="images/fixed1.jpg">
+      <div class="photographer-swipe">
+        <h2>&#128248;: Screenshot</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="rows">
+    <div class="skills-col">
+      <h3>Mechanical Engineering Apprentice</h3>
+      <p>Worked in the MIT Mechanical Engineering Lab ‘Pappalardo’.<br> Mentored students in the class ‘Design and Manufacturing I’ while improving on my own fabrication skills.</p>
+    </div>
+    <div class="skills-col">
+      <h3>Undergraduate Researcher</h3>
+      <p>Helped to design and construct the housing and optical fluidics system of a digital holographic microscope.<br>The process involved laser cutting, 3D printing and machining.</p>
+    </div>
+    <div class="skills-col">
+      <h3>Introductory Biology Teaching Assistant</h3>
+      <p>Worked closely with course staff in the Department of Biology at MIT to create exams, organize recitation material and keep the class engaging.</p>
+    </div>
+  </div>
+
+</section>
+
+<!--- FOOTER: Contact section on About page --->
+<section class="footer">
+  <div class="foot-text-box">
+    <h1>Contact Information</h1>
+    <p>Open to work!</p>
+
+    <div class="socials">
+    <h2>Email:<a href = "mailto:katanaf@mit.edu"> katanaf@mit.edu</a><br>Phone#:<a href= "tel:857-210-4021" > (857)210-4021</a><br>LinkedIn:<a href="https://www.linkedin.com/in/katana-finlason-236704221"> linkedin.com/in/katana-finlason-236704221</a></h2>
+    </div>
+ </div>
+</section>
+
+<!---JavaScript for Small Screen Toggle Menu--->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+</body>
+</html>
