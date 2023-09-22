@@ -88,7 +88,7 @@ nav img{
 .text-box img{
   border-radius: 50%;
   position: center;
-  width: 16%;
+  width: 200px;
   -webkit-box-shadow: 0px 0px 8px 5px black;
   -moz-box-shadow: 0px 0px 8px 2px light green;
   box-shadow: 0px 0px 8px 2px light blue;
@@ -127,7 +127,7 @@ nav .fa-regular{
     font-size: 15px;
   }
   .text-box img{
-    width: 50%;
+    width: 180px;
   }
   .nav-links ul li{
     display: block;
